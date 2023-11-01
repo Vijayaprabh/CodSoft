@@ -1,0 +1,46 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "welcome"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "studies",
+    "user_input": ["where", "can","i","learn","about","web","development"],
+    "bot_response": "you can learn web development by whatching youtube videos.",
+    "required_words": []
+  },
+  {
+    "response_type": "studies",
+    "user_input": ["give", "me", "best", "channels","to","learn","web","development"],
+    "bot_response": "freecodecamp",
+
+
+    "required_words": ["channels","web"]
+  },
+  {
+    "response_type": "studies",
+    "user_input": ["give", "me", "the", "link", "to", "the","youtube","channel"],
+    "bot_response": "youtube: https://www.youtube.com/@freecodecamp.",
+    "required_words": ["link", "channel"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["give", "me", "best", "places", "to","visit","in","pondicherry"],
+    "bot_response": "beach,manakula vinnayakar temple.",
+    "required_words": ["best", "visit"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "command",
+    "user_input": ["can", "you", "give","me","the","recipe","of","coffee"],
+    "bot_response": "yes I can! wait a minute.",
+    "required_words": ["recipe", "coffee"]
+  }
+]
